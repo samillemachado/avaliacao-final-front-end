@@ -4,35 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Currículo - Samille Berlezi Machado</title>
 </head>
 <body>
-    <section>
-        <nav>
-            <img src="./images/foto-samille.png" alt="foto-samille">
+    <nav class="navegar">
+        <img class="foto-perfil" src="./images/foto-samille.png" alt="foto-samille">
+        <div class="lista">
             <ul>
-                <li>SOBRE</li>
-                <li>CONHECIMENTOS</li>
-                <li>OBJETIVOS</li>
+                <li><a class="ativo" href="index.html">SOBRE</a></li>
+                <li><a href="conhecimentos.html">CONHECIMENTOS</a></li>
+                <li><a href="objetivos.html">OBJETIVOS</a></li>
             </ul>
-        </nav>
-    </section>
-
-    <section>
-        <h1>SAMILLE <spam>B MACHADO</spam></h1>
-        <spam>
-
-        <h3>CENTRO HISTÓRICO - PORTO ALEGRE/RS SAMI.BMACHADO@GMAIL.COM</h3>
-        </spam>
-
-        <h3>TELEFONE: (XX) XXXXX-XXXX</h3>
+        </div>
+    </nav>
+   
+    <section class="dados">
+        <div>
+            <h1 class="name">SAMILLE <span>B MACHADO</span></h1>
+            <span>
+            <h3 class="address">CENTRO HISTÓRICO - PORTO ALEGRE/RS <a href="mailto:samillebmachado@gmail.com" target="_blank"><span>SAMI.BMACHADO@GMAIL.COM</span></a></h3>
+            </span>
+            <h3 class="fone">TELEFONE: (51) 98211-2685</h3>
+        </div>
         
-        <p>Descrição</p>
+        <p>Sou mãe da Elisa, Arquiteta e Urbanista e atualmente estou estudando desenvolvimento web fullstack!</p>
 
-        <img src="" alt="Linkedin-samille">
-        <img src="" alt="Instagam-samille">
-        <img src="" alt="Github-samille">
-        <img src="Facebook-samille" alt="">
+        <div class="box-links">
+            <a href="https://www.linkedin.com/in/samillemachado/"><img class="link" src="./images/linkedin_square_icon.png" alt="Linkedin-samille"></a>
+            <a href="https://www.instagram.com/samillemachado/"><img class="link" src="./images/instagram_square_icon.png" alt="Instagam-samille"></a>
+            <a href="https://github.com/samillemachado"><img class="link" src="./images/github_square_icon.png" alt="Github-samille"></a>
+            <a href="https://www.facebook.com/samille.machado"><img class="link" src="./images/facebook_square_icon.png" alt="Facebook-samille"></a>
+            <a href="https://wa.me/5551982112685"><img class="link" src="./images/whats_square_icon.png" alt="WhatsApp-samille"></a>
+        </div>
     </section>
 </body>
 </html>
